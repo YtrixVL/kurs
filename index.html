@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Название -->
+    <title>ProWeb</title>
+    <!-- Стиль + шрифты -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- JS для работы с API gmail -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <!-- Главная -->
+    <div class="header">
+        <div class="container">
+            <div class="header-line">
+                <!-- Логотип -->
+                <div class="header-logo">
+                    <img src="img/logo.png" class="logo">
+                </div>
+                <!-- Навигация -->
+                <div class="nav">
+                    <a class="nav-item" href="#">ГЛАВНАЯ</a>
+                    <a class="nav-item" href="#team">О НАС</a>
+                    <a class="nav-item" href="#works">РАБОТЫ</a>
+                </div>
+                <!-- Кнопка для оформления заказа -->
+                <div class="contact">
+                    <a class="btn" href="#">ЗАКАЗАТЬ САЙТ</a>
+                </div>
+            </div>
+            <div class="header-down">
+                <div class="header-title">
+                    Добро пожаловать в
+                    <div class="header-subtitle">
+                        PROWEB
+                    </div>
+                    <div class="header-sub">
+                        web студию
+                    </div>
+                    <div class="readme">
+                        <a href="#card" class="readme-btn">
+                            Read Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Главная -->
+    <!-- Окна -->
+    <div class="cards">
+        <div class="container">
+            <div class="cards-holder">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/team.png">
+                    </div>
+                    <div class="card-title" id="card">
+                        Команда <span class="text">PROWEB</span>
+                    </div>
+                    <div class="card-desc">
+                        В нашей команде царит дружная атмосфера
+                        наполненная хорошим настроением
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/home.png">
+                    </div>
+                    <div class="card-title">
+                        Место <span>расположение</span>
+                    </div>
+                    <div class="card-desc">
+                        Наша команда не привязана к определённому
+                        месту, она работает дистанционно
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/work.png">
+                    </div>
+                    <div class="card-title">
+                        Лучшее <span>качество</span>
+                    </div>
+                    <div class="card-desc">
+                        Наши работы вы можете увидеть во многих компаниях
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Окна -->
+    <!-- О Нас -->
+    <div class="team" id="team">
+        <div class="container">
+            <div class="team-holder">
+                <div class="team-info">
+                    <div class="team-title">
+                        О <span> Нас </span>
+                    </div>
+                    <div class="team-desc">
+                        Команда IT-компании ProWeb была основана в 2005 году в городе Москва, Россия. Основателями
+                        компании были два друга - Антон и Максим, которые вместе работали в другой IT-компании и решили
+                        создать
+                        их собственный стартап.
+
+                        Изначально компания занималась разработкой программного обеспечения для малого и среднего
+                        бизнеса,
+                        но
+                        вскоре
+                        расширила изменить свои услуги на разработку мобильных приложений и веб-сайтов.
+
+                        Благодаря высокому качеству и инновациям своей продукции компания становится все более
+                        популярной
+                        среди
+                        покупателей.
+                    </div>
+                    <div class="team-number">
+                        <div class="number-item">
+                            93 <span>В работе</span>
+                        </div>
+                        <div class="number-item">
+                            206 <span>Выполнено</span>
+                        </div>
+                        <div class="number-item">
+                            71 <span>Заказ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-images">
+                    <img src="img/1.png" alt="image" class="team-img-1">
+                    <img src="img/2.png" alt="image" class="team-img-2">
+                    <img src="img/3.png" alt="image" class="team-img-3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //О Нас -->
+    <!-- Реклма -->
+    <div class="work1-block">
+        <div class="container">
+            <div class="block-holder">
+                <div class="left">
+                    <div class="left-title">
+                        Создайте свой сайт в одной из <br> самых лучших IT-компаний.
+                    </div>
+                    <div class="left-desc">
+                        Только в этом месяце сайт от 15.000 ₽
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-button">
+                        <a href="#" class="right-btn">ЗАКАЗАТЬ САЙТ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Реклма -->
+    <!-- Работы -->
+    <div class="work">
+        <div class="container">
+            <div class="work-title">
+                Наши <span> Работы </span>
+            </div>
+            <div class="works" id="works">
+                <div class="works-image">
+                    <img src="img/web.jpg" alt="image" class="web">
+                </div>
+                <div class="works-items">
+                    <div class="works-item">
+                        <img src="img/web1.png" alt="image" class="web1">
+                        <div class="works-text">
+                            Личный сайт ----------- 15.000 ₽
+                        </div>
+                    </div>
+                    <div class="works-item">
+                        <img src="img/web1.png" alt="image" class="web1">
+                        <div class="works-text">
+                            Личный сайт ----------- 15.000 ₽
+                        </div>
+                    </div>
+                    <div class="works-item">
+                        <img src="img/web1.png" alt="image" class="web1">
+                        <div class="works-text">
+                            Личный сайт ----------- 15.000 ₽
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Работы -->
+    <!-- Форма отправки заказа + Калькулятор-->
+    <div class="forms">
+        <div class="container1">
+            <div class="calc-name">
+                Онлайн заказ
+            </div>
+            <form class="fo" id="submit" action="#">
+                <input class="inp" type="text" id="fname" placeholder="ФИО..." required>
+                <input class="inp" type="email" id="email" placeholder="Почта..." required>
+                <input class="inp" type="text" id="phone" placeholder="Телефон..." required>
+                <select name="slass" id="slass" required>
+                    <option value="" selected>Выберите тип сайта:</option>
+                    <option value="Коммерческий сайт">Коммерческий сайт</option>
+                    <option value="Интернет-магазин">Интернет-магазин</option>
+                    <option value="Корпоративный портал">Корпоративный портал</option>
+                    <option value="Сайт-визитка">Сайт-визитка</option>
+                </select>
+                <input class="inp" type="number" id="kol" placeholder="Количество страниц..." required>
+                <input class="inp" type="text" id="foto" placeholder="Ссылка на дизайн сайта...">
+                <p class="select-text">Анимации:</p>
+                <select name="anim" id="anim" required>
+                    <option value="Нет">Нет</option>
+                    <option value="Да">Есть</option>
+                </select>
+                <p class="select-text">База данных:</p>
+                <select name="db" id="db" required>
+                    <option value="Нет">Нет</option>
+                    <option value="Да">Есть</option>
+                </select>
+                <p class="select-text">Реклама на сайте:</p>
+                <select name="rec" id="rec" required>
+                    <option value="Нет">Нет</option>
+                    <option value="Да">Есть</option>
+                </select>
+                <input type="submit" value="Отправить" id="sendForm">
+            </form>
+            <div class="itog">
+                <h1 class="itogo-text">Итого:</h1>
+                <p id="itogo">0 ₽</p>
+                <button id="calc">Рассчитать</button>
+            </div>
+        </div>
+    </div>
+    <!-- //Форма отправки заказа + Калькулятор-->
+    <script src="script.js"></script>
+</body>
+
+</html>
